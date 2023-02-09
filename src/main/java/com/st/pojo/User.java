@@ -1,5 +1,8 @@
 package com.st.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
     private String userId;
     private String cardType;
